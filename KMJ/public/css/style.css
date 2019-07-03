@@ -168,6 +168,12 @@
   width: 100%;
   border-radius: 10px 10px 0px 0px;
 }
+
+#blog #img{
+  min-height: 450px;
+  max-height: 450px;
+}
+
 #blog .container{
   margin-top: 30px;
 }

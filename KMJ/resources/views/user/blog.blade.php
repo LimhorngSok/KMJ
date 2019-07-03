@@ -16,7 +16,7 @@
 	<div class="col-lg-8">
 		@foreach ($posts as $post)
 		<div class="col blog">
-	    <a href="{{ $post->slug }}"><img class="img-fluid" src="{{Storage::disk('local')->url($post->image)}}" alt=""></a>
+	    <a href="{{ $post->slug }}"><img id="img" class="img-fluid" src="{{Storage::disk('local')->url($post->image)}}" alt=""></a>
 	    <a href="{{ $post->slug }}" class="date">{{ date('F d, Y', strtotime($post->created_at)) }}</a>
 	    <div class="blog-detail">
 	      <a href="{{ $post->slug }}" class="d-inline-block"><h5>{{$post->title}}</h5></a>
