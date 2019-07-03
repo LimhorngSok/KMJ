@@ -1,0 +1,10 @@
+@section('title','Home - KMJ')
+@include('Layout.common')
+@extends('Layout.footer')
+
+@extends('Layout.contact-us')
+@extends('Layout.about-us')
+@extends('Layout.blog')
+@extends('Layout.service')
+@extends('Layout.banner')
+@extends('Layout.header')
